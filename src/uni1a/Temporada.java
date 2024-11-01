@@ -14,7 +14,7 @@ public class Temporada {
     return episodes;
   }
 
-  public int getSessionNumber() {
+  public int getSeasonNumber() {
     return seasonNumber;
   }
 
@@ -22,11 +22,11 @@ public class Temporada {
     this.episodes = episodes;
   }
 
-  public void setSessionNumber(int sessionNumber) {
-    this.seasonNumber = sessionNumber;
+  public void setSeasonNumber(int SeasonNumber) {
+    this.seasonNumber = SeasonNumber;
   }
 
   public String getSeason() {
-    return "Temporada: " + getSeason() + ", Episodios: " + getEpisodes();
+    return "Temporada: " + getSeasonNumber() + ", Episodios: " + getEpisodes();
   }
 }
