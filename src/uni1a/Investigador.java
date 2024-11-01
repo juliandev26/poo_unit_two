@@ -1,32 +1,25 @@
 package uni1a;
 
+// Clase Investigador
 public class Investigador {
-  private String name;
-  private String lastName;
+  private String nombre;
+  private String especialidad;
 
-  public Investigador(String name, String lastName) {
-    super();
-    this.name = name;
-    this.lastName = lastName;
+  public Investigador(String nombre, String especialidad) {
+    this.nombre = nombre;
+    this.especialidad = especialidad;
   }
 
-  public String getName() {
-    return name;
+  public String getNombre() {
+    return nombre;
   }
 
-  public String getLastName() {
-    return lastName;
+  public String getEspecialidad() {
+    return especialidad;
   }
 
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public void setLastName(String lastName) {
-    this.lastName = lastName;
-  }
-
-  public String getFullName() {
-    return "Investigador: " + getName() + getLastName();
+  @Override
+  public String toString() {
+    return "Investigador: " + nombre + ", Especialidad: " + especialidad;
   }
 }

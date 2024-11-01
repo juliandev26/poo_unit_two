@@ -26,7 +26,7 @@ public class PruebaAudioVisual {
     ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[3];
     contenidos[0] = new Pelicula("Avatar", 125, "Accion", "20th Century Studios", actors);
     contenidos[1] = new SerieDeTV("Game of Thrones", 60, "Fantasy", 8, temporada);
-    contenidos[2] = new Documental("Cosmos", 45, "Science", "Astronomy");
+    contenidos[2] = new Documental("Cosmos", 45, "Science", "Astronomy", "National Geographic", "Leader to the stars");
 
     // Mostrar los detalles de cada contenido audiovisual
     for (ContenidoAudiovisual contenido : contenidos) {
