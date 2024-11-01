@@ -27,6 +27,6 @@ public class Actor {
   }
 
   public String getFullName() {
-    return "Actor: " + getName() + getLastName();
+    return "Actor: " + getName() + " " + getLastName();
   }
 }
